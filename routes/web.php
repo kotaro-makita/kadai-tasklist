@@ -16,4 +16,6 @@
 // });
 
 Route::get('/','TasksController@index');
+// Route::get('/tasks/{id}','TasksController@show');
+
 Route::resource('tasks','TasksController');
